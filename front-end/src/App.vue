@@ -8,6 +8,9 @@
       </nav>
     </header>
     <router-view />
+    <div id="footer">
+      <a href='https://github.com/kahuku/photobomb' target=_blank>Github Repo</a>
+    </div>
   </div>
 </template>
 
@@ -63,5 +66,14 @@ h2 {
 
 .pure-button-primary {
   background-color: #277E8E;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #CCC;
+  min-height: 50px;
 }
 </style>
